@@ -1,0 +1,45 @@
+head{
+	position:absolute;
+}
+ul{
+	background-color:#333;
+	padding:0;
+	margin: 0;
+	overflow:hidden;
+	position:relative;
+}
+#left-corner{
+	display:inline-block;
+	padding:20px;
+	color:white;
+	font-size:20px;
+	font-family:Oswald;
+	position:relative;
+}
+#titles{
+	display:inline-block;
+	padding:23px;
+	float:right;
+	color:white;
+	font-family:Oswald,sans-serif;
+}
+a #titles:hover{
+	background-color:orange;
+}
+#long{
+	background:url("o.jpg");
+	background-size: cover;
+	/* Rules to fill background */
+	min-height: 100%;
+	min-width:1024px;
+	/*Proportionate scaling */
+	width:100%;
+	height:auto;
+	/*positioning */
+	position:fixed;
+	top:0;
+	left:0;
+}
+#bro{
+height:1000px;
+}
