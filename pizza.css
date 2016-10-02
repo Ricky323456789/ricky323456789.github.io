@@ -1,7 +1,7 @@
 head{position:absolute;}
 
 ul{
-	background-color:#333;
+	background-color:#f00;
 	padding:0;
 	margin:0;
 	overflow:hidden;
@@ -10,7 +10,7 @@ ul{
 #left-corner{
 	display:inline-block;
 	padding:20px;
-	color:white;
+	color:black;
 	font-size:20px;
 	font-family:Oswald;
 	position:relative;
@@ -19,15 +19,15 @@ ul{
 	display:inline-block;
 	padding:23px;
 	float:right;
-	color:white;
+	color:black;
 	font-family:Oswald,sans-serif;
 }
 a #titles:hover{
-	background-color:orange;
+	background-color:#f00;
 }
 #banner{
-	height:200px;
-	width:3000px;
+	height:300px;
+	width:1500px;
 	background-color:gray;
 	display:table-cell;
 	vertical-align: middle;
@@ -36,6 +36,10 @@ a #titles:hover{
 	margin:0px auto;
 	font-size:50px;
 	font-family:oswald;
+}
+#banner img{
+	height:300px;
+	width:1500px;
 }
 
 #combo{
@@ -55,3 +59,6 @@ a #titles:hover{
 td{
 	padding-bottom:1em;
 }
+a #titles:hover{
+	background-color:white;
+}s

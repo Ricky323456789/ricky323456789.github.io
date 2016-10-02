@@ -1,16 +1,17 @@
 head{position:absolute;}
 
 ul{
-	background-color:#333;
+	background-color:#f00;
 	padding:0;
 	margin:0;
 	overflow:hidden;
 	position:relative;
+	border-bottom: 1px black solid;
 }
 #left-corner{
 	display:inline-block;
 	padding:20px;
-	color:white;
+	color:black;
 	font-size:20px;
 	font-family:Oswald;
 	position:relative;
@@ -19,8 +20,9 @@ ul{
 	display:inline-block;
 	padding:23px;
 	float:right;
-	color:white;
+	color:black;
 	font-family:Oswald,sans-serif;
+
 }
 a #titles:hover{
 	background-color:orange;
@@ -28,7 +30,7 @@ a #titles:hover{
 #banner{
 	height:200px;
 	width:3000px;
-	background-color:gray;
+	background-color:#f00;
 	display:table-cell;
 	vertical-align: middle;
 }
@@ -36,6 +38,10 @@ a #titles:hover{
 	margin:0px auto;
 	font-size:50px;
 	font-family:oswald;
+}
+#banner img{
+	height:200px;
+	width:200px;
 }
 #size{padding-left:5em;
 	text-align: center}
@@ -56,4 +62,16 @@ text-align:center;
 }
 #big{
 	font-family:10em;
+}
+
+a #titles:hover{
+	background-color:white;
+}
+#split{
+    width:20%;
+    text-align:left;
+    display:inline-block;    
+	height:400px;
+	width:200px;
+	border:2px black solid;
 }
