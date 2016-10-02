@@ -2,7 +2,7 @@ head{
 	position:absolute;
 }
 ul{
-	background-color:#333;
+	background-color:#f00;
 	padding:0;
 	margin: 0;
 	overflow:hidden;
@@ -11,20 +11,20 @@ ul{
 #left-corner{
 	display:inline-block;
 	padding:20px;
-	color:white;
+	color:black;
 	font-size:20px;
 	font-family:Oswald;
 	position:relative;
 }
 #titles{
+	color:black;
 	display:inline-block;
 	padding:23px;
 	float:right;
-	color:white;
 	font-family:Oswald,sans-serif;
 }
 a #titles:hover{
-	background-color:orange;
+	background-color:white;
 }
  #long{
 	background:url("o.jpg");
@@ -37,14 +37,33 @@ a #titles:hover{
 #menub{
 	position:absolute;
 	height:50px;
-	width:180px;
+	width:190px;
 	left:0;
 	right:0;
 	top:0;
-	bottom:0;
+	bottom:300px;
 	margin:auto;
 	border-radius:5px;
 	font-size:16px;
-	color:white;
-	background-color:orange;
+	color:black;
+	background-color:#f00;
+}
+#menub:hover{
+	background-color: white;
+}
+#container{text-align:center;
+    width:100%;
+}
+#contents{
+	margin-top:500px;
+    width:20%;
+    text-align:left;
+    display:inline-block; 
+    height:400px;
+    width:400px;
+ 
+}
+#contents img{
+	height:400px;
+	width:400px;
 }
