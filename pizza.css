@@ -27,7 +27,6 @@ a #titles:hover{
 }
 #banner{
 	height:300px;
-	width:1500px;
 	background-color:gray;
 	display:table-cell;
 	vertical-align: middle;
@@ -39,7 +38,7 @@ a #titles:hover{
 }
 #banner img{
 	height:300px;
-	width:1500px;
+	width:100%;
 }
 
 #combo{
