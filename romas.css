@@ -29,6 +29,8 @@ head{
 a #titles:hover{
 	background-color:white;
 }
+/*End of nav bar */
+
  #long{
 	background:url("o.jpg");
 	background-size: cover;
