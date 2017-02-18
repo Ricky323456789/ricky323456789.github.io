@@ -1,0 +1,106 @@
+head{
+	position:absolute;
+}
+#navbar{
+	background-color:black;
+	padding:0;
+	margin: 0;
+	overflow:hidden;
+	position:relative;
+}
+#left-corner img{
+	height:100px;
+}
+#left-corner{
+	display:inline-block;
+	color:black;
+	font-family:Oswald;
+	position:relative;
+}
+#titles{
+	color:#f00;
+	display:inline-block;
+	padding:23px;
+	font-size:40px;
+	float:right;
+	font-family:Oswald,sans-serif;
+	border-right:solid 1px #f00;
+}
+a #titles:hover{
+	background-color:white;
+}
+/*End of nav bar */
+
+ #long{
+	background:url("o.jpg");
+	background-size: cover;
+	/* Rules to fill background */
+	width:100%;
+	height:1024px;
+	position:relative;
+	overflow:hidden;
+
+}
+/* Work on me when Frank shuts the fuck up
+#menub{
+	position:absolute;
+	height:300px;
+	width:90%;
+	left:0;
+	right:0;
+	top:0;
+	bottom:300px;
+	margin:auto;
+	border-radius:5px;
+	border:solid black 1px;
+}*/
+
+#container{text-align:center;
+    width:100%;
+}
+#contents{
+	margin-top:500px;
+    width:20%;
+    text-align:left;
+    display:inline-block; 
+    height:400px;
+    width:400px;
+ 	padding:0px;
+}
+
+
+#contents img{
+	height:400px;
+	width:400px;
+}
+
+
+
+footer{
+	height:300px;
+	background-color:gray;
+	padding:0px;
+	margin:0px;
+}
+footer ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+#footT{
+	display:inline-block;
+	padding-right:100px;
+}
+#wrapper{
+	width:1000px;
+}
+
+#candy1{
+	width:300px;
+	float:left;
+}
+#candy2{
+	width:300px;
+	float:left;
+}
