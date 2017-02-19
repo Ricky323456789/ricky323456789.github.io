@@ -1,3 +1,6 @@
+body{background: url("o.jpg");
+background-size:cover;
+}
 head{
 	position:absolute;
 }
@@ -30,11 +33,39 @@ a #titles:hover{
 	background-color:white;
 }
 #container{
-	background-color:white;
+	background-color:;
 }
 #contents{
 	width:100%;
 	height:1000px;
 	text-align: center;
 	border: black 1px solid;
+}
+footer{
+	height:300px;
+	background-color:gray;
+	padding:0px;
+	margin:0px;
+}
+footer ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+#footT{
+	display:inline-block;
+	padding-right:100px;
+}
+#wrapper{
+	width:1000px;
+}
+
+#candy1{
+	width:300px;
+	float:left;
+}
+#candy2{
+	width:300px;
+	float:left;
 }

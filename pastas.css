@@ -68,3 +68,31 @@ a #titles:hover{
 	width:200px;
 	border:2px black solid;
 }
+footer{
+	height:300px;
+	background-color:gray;
+	padding:0px;
+	margin:0px;
+}
+footer ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+#footT{
+	display:inline-block;
+	padding-right:100px;
+}
+#wrapper{
+	width:1000px;
+}
+
+#candy1{
+	width:300px;
+	float:left;
+}
+#candy2{
+	width:300px;
+	float:left;
+}
